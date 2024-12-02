@@ -97,9 +97,9 @@ Advantages:
 
       
 Contributors:
-      Konatham Sumathi
-      Yuvashri Devi
-      Rajdeep Mondal
+     * Konatham Sumathi
+     * Yuvashri Devi
+     * Rajdeep Mondal
 
 Future Scope:
       Integrate advanced AI/ML models for improved accuracy and speed.
