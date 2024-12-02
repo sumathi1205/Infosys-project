@@ -1,4 +1,4 @@
-                                                                                                   Blood Group Identification System
+                                                             Blood Group Identification System
 
 
 Overview:
