@@ -148,13 +148,13 @@ def profile(request):
                         rh_factor = "Negative"
 
                     # Determine blood type
-                    if num_region_A > 0 and num_region_B == 0:
+                    if num_region_A > 5 and num_region_B <= 5:
                         blood_type = "A"
-                    elif num_region_A == 0 and num_region_B > 0:
+                    elif num_region_A <= 5 and num_region_B > 5:
                         blood_type = "B"
-                    elif num_region_A > 0 and num_region_B > 0:
+                    elif num_region_A > 5 and num_region_B > 5:
                         blood_type = "AB"
-                    elif num_region_A == 0 and num_region_B == 0:
+                    elif num_region_A <= 5 and num_region_B <= 5:
                         blood_type = "O"
                     else:
                         blood_type = "Unknown"
