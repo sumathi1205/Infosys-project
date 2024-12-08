@@ -29,10 +29,10 @@ urlpatterns = [
         path('Login/', views.login,name='Login'),
         path('register/', views.register,name='register'),
         path('profile/',views.profile,name='profile'),
-         path('contact/', views.contact, name='contact'),
+        path('contact/', views.contact, name='contact'),
         path('About/', views.about_view, name='About'),
-       path('services/', views.Services, name='Services'),
-
+        path('services/', views.Services, name='Services'),
+        path('logout/', views.logout_view, name='logout'),
 
         
     
