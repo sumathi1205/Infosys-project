@@ -10,14 +10,30 @@
             padding: 0;
             font-family: Arial, sans-serif;
             background: linear-gradient(to right, #ff7e5f, #feb47b);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 149vh;
             color: #333;
         }
 
+        .logout-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #007ACC;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .logout-button:hover {
+            background-color: #005DAA;
+        }
+
         .container {
+            max-width: 600px;
+            margin: 50px auto;
             background-color: rgba(255, 255, 255, 0.9);
             border-radius: 10px;
             padding: 20px 40px;
@@ -32,18 +48,19 @@
         }
 
         .image-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         label {
             font-weight: bold;
             margin-bottom: 10px;
+            display: block;
         }
 
         input[type="file"] {
+            display: block;
+            margin: 10px auto;
             padding: 10px;
             background-color: #fff;
             border: 1px solid #ddd;
@@ -72,24 +89,33 @@
             object-fit: cover;
             border-radius: 50%;
             border: 3px solid #ff6b6b;
-            margin-bottom: 10px;
+            margin: 10px auto;
         }
 
         .uploaded-image {
-            max-width: 15%; 
+            max-width: 25%; 
             height: auto; 
             border-radius: 10px; 
             border: 3px solid #ff6b6b;
-            margin-bottom: 5px;
+            margin: 10px auto;
+        }
+
+        .form-section {
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
+    <button class="logout-button" onclick="window.location.href='/logout/'">Logout</button>
     <div class="container">
         <h1>Welcome to Blood Group Identification Web App!</h1>
         <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
-            <div class="image-container">
+            <div class="form-section image-container">
                 <label for="abo_image">ABO Blood Cell Image</label>
                 <img src="https://i.ibb.co/F3wFxyP/abc-blood-group.jpg" alt="ABO Blood Cell" class="blood-cell-image">
                 <input type="file" id="abo_image" name="abo_image" accept="image/*">
