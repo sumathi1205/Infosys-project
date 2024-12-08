@@ -187,3 +187,10 @@ def profile(request):
 
     # Render initial empty profile page
     return render(request, "profile.html", {"img": None, "processed_img": None, "blood_type": None, "rh_factor": None})
+
+from django.contrib.auth import logout
+
+def logout_view(request):
+    logout(request)
+    return redirect('/')  # Redirect to the home page after logout
+
