@@ -87,11 +87,11 @@ Routes:
                     /service	                            Access to the blood group analyzer.
                     /login	                              User login page.
                     /register	                            User registration page.
+                    
 
+Directory structure:
 
-
-![image](https://github.com/user-attachments/assets/b22a0f25-2d06-4337-9576-187226fc56ff)
-
+![image](https://github.com/user-attachments/assets/07bde7d0-3f9a-49f7-9054-42b2d49ad744)
 
 
 
