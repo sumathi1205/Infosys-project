@@ -35,7 +35,7 @@ Prerequisites:
             Virtual environment (optional but recommended)
       Steps:
      1.  Clone this repository:
-            git clone https://github.com/your-repo/blood-group-identification.git
+            git clone https://github.com/sumathi1205/Infosys-project.git
             cd blood-group-identification
 
      2.  Set up a virtual environment (optional but recommended):
