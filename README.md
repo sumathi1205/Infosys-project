@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0bd8cddb-7431-4a87-8e50-4dcc1e641d5d)                                      Blood Group Identification System
+                                   Blood Group Identification System
 
 
 Overview:
@@ -100,6 +100,9 @@ Advantages:
       Time-Saving: Processes results within seconds, critical during emergencies.
       User-Friendly Interface: Simplifies usage for medical professionals and individuals.
       Reliable Results: Leverages advanced algorithms for high accuracy.
+
+outputs:
+
 
       
 Contributors:
