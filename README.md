@@ -89,6 +89,40 @@ Routes:
                     /register	                            User registration page.
 
 
+Directory structure
+
+project/
+│
+├── manage.py                   # Command-line utility
+├── db.sqlite3                  # Database file
+├── grayscale_image.jpg         # Grayscale image
+├── image1.jpg                  # Image 1
+├── image2.jpg                  # Image 2
+├── image 3.jpg                 # Image 3
+├── Blood_slide.jpeg            # Sample slide image
+├── sample/                     # Main project folder
+│   ├── __init__.py
+│   ├── asgi.py                 # ASGI configuration
+│   ├── settings.py             # Configuration
+│   ├── urls.py                 # URL routing
+│   ├── wsgi.py                 # WSGI configuration
+│   ├── __pycache__/            # Compiled Python files
+│   └── media/                  # Media files
+├── demopage/                   # Django application folder
+│   ├── __init__.py
+│   ├── admin.py                # Admin configuration
+│   ├── apps.py                 # App configuration
+│   ├── models.py               # Database models
+│   ├── tests.py                # Test cases
+│   ├── views.py                # Business logic
+│   ├── migrations/             # Database migrations
+│   ├── templates/              # HTML templates
+│   ├── static/                 # Static files
+│       └── img/                # Images for static use
+│   └── __pycache__/            # Compiled Python files
+
+
+
 Advantages:
       Error-Free: Automated process reduces human errors.
       Time-Saving: Processes results within seconds, critical during emergencies.
