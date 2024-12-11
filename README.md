@@ -1,4 +1,4 @@
-                                      Blood Group Identification System
+![image](https://github.com/user-attachments/assets/0bd8cddb-7431-4a87-8e50-4dcc1e641d5d)                                      Blood Group Identification System
 
 
 Overview:
@@ -89,6 +89,8 @@ Routes:
                     /register	                            User registration page.
 
 
+
+![image](https://github.com/user-attachments/assets/b22a0f25-2d06-4337-9576-187226fc56ff)
 
 
 
