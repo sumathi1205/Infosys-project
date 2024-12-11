@@ -103,6 +103,16 @@ Advantages:
 
 outputs:
 
+![image](https://github.com/user-attachments/assets/6d253982-bc97-4bcc-af34-2c077f8ff3ca)
+
+![image](https://github.com/user-attachments/assets/4fd5ca0d-5e6a-4c93-89d3-c9a36ec8481c)
+
+![image](https://github.com/user-attachments/assets/ab386a5c-d0d8-48be-ac99-ab2176d3f5a9)
+
+![image](https://github.com/user-attachments/assets/589edaf4-0b65-443e-94fc-cff61bdacdd7)
+
+
+
 
       
 Contributors:
